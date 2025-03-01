@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta charset="iso-8859-1">
+    <meta name="description" content="Ejemplo HTML5">
+    <meta name="keywords" content="HTML5, CSS3, JavaScript">
+    <title>Formulario de Alta</title>
+    <script src="modernizr.min.js"></script>
+    <link rel="stylesheet" href="estilos/estilo.css">
+</head>
+
+<body>
+
+<fieldset id="registrouser">
+    <form name="registro" action="insertarcoches.php" method="post">
+        <legend>Registro de Coches</legend>
+        <label for="vehiculo">Seleccione marca del Vehiculo:</label>
+        <select name="marca" >
+            
+        <option>BMW</option>
+        <option>kia</option>
+        <option>nissan</option>
+        <option>Chrysler</option>
+        <option>Volsvagen</option>
+        <option>Chevrolet</option>
+    
+       </select>
+       
+       <label for="modelo">Indique el Modelo:</label>
+       <input type="text" name="modelo" class="texto" size="45" />
+       <label for="color">Indique el Color: </label>
+       <input type="text" name="color" class="texto" size="45" />
+       <label for="anio">Año de matriculacion:</label>
+       <input type="text" name="fecha" class="texto" size="45" />
+       <label for="radio">Combustible:</label>
+       <input type="radio" name ="combustible" value="Diesel" checked />Diesel <br>
+       <input type="radio" name="combustible" value="Gasolina" checked />Gasolina <br>
+       <label for="precio">Precio:</label>
+       <input type="text" name="precio" class="texto" size="45" />
+       <br>
+       <input type="submit" name="inserta" class="botonenviar" value="Enviar" />
+    </form>
+
+
+    <a href="http://localhost/agencia_autos/consulta.php"> Consultar Registros</a>
+</fieldset>
+</body>
+</html>
