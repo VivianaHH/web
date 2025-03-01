@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500; 600; 700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color:#fffafa;
+}
+
+header {
+    background-image: url(/InterfazdeBanco/img/fond2.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.menu {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.menu .logo {
+    font-weight: 700;
+    font-size: 25px;
+    color:#ee0f0f;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 10px 35px;
+    color: #110e0e;
+    border-radius: 25px;
+    display: block;
+}
+
+.menu .navbar ul li a:hover {
+    background-color:#da1c1c;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 50px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+    
+.header-content {
+    display: flex;
+}
+    
+.header-content img { 
+    width: 300px;
+}
+    
+.content {
+    padding: 150px 150px 0px 0px;
+}
+    
+.content h1 {
+    color: #0e0d0d;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 40px;
+}
+    
+.content p {
+    margin-top: 25px;
+    color: #080808;
+    font-size: 25px;
+}
+
+.btn-1 {
+    display: inline-block;
+    background-color:#181616;
+    margin: 35px 0px 0px 0px;
+    padding: 16px 100px;
+    color: #faf4f4;
+    border-radius: 25px;
+}
+
+
+.btn-1:hover {
+
+    background-color:#d40808;
+}
+    
+.services {
+    padding: 100px 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+    
+.service {
+    padding: 20px;
+    margin: 0px 10px;
+}
+    
+.service img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+.service h3 {
+    font-size: 20px;
+    color: #0c0c0c;
+    margin-bottom: 10px;
+}
+
+.service p {
+    
+    color: #f5f5f8;
+    font-size: 16px;
+}
+
+.features {
+    padding: 50px 0px;
+    background-image: url(/InterfazdeBanco/img/fond2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #0e0c0c;
+}
+
+.features img{
+    width: 60px;
+}
+
+.features h2 {
+    font-size: 55px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+.g-features {
+    display: flex;
+}
+
+.feature {
+    margin: 15px;
+    padding: 25px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.3);
+    background-color:#ffffff;
+    text-align: left;
+    border-radius: 15px;
+}
+
+.feature h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 16px;
+}
+
+.customers {
+    padding: 40px 0px;
+    text-align: center;
+}
+
+.customers h2{
+    font-size: 50px;
+    color:#0E0E0E;
+    margin-bottom: 55px;
+}
+
+.i1{
+    width: 70px;
+}
+
+.customer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.customer img {
+    width: 250px;
+}
+
+main section p{
+    padding: 20px;
+ }
+
+#images{
+    background-color: rgb(252, 241, 241);
+    overflow: hidden;
+    padding: 10px;
+    border-radius: 12px;
+    position: relative;
+    width: 48%;
+    margin: auto;
+    position: relative;
+    
+}
+
+#images img{
+    height: 15rem;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 50%;
+}
+
+.imagenes{
+   display: flex;
+   transition: transform 0.5s ease-in-out;
+    
+}
+    
+footer {
+    
+    padding: 0px 0px 30px 0px;
+    background-image: url(/img/fond);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
+.info-content {
+    display: flex;
+}
+
+.info-price {
+    padding: 45px;
+    text-align: center;
+    background-color:#F5F5F5;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
+    margin: 0px 150px 0px 0px;
+    color: #0E0E0E;
+}
+    
+.info-price h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+    
+.price {
+    font-size: 20px;
+    color:#0EAEF3 ! important;
+    margin-bottom: 10px;
+}
+
+.info-price p {
+    font-size: 20px; 
+    color: #525254;
+}
+        
+.info-txt {
+    margin-left: 40px; 
+    color: #0E0E0E;
+}
+        
+.info-txt h2 {
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+        
+.info-txt p {
+    color: #111114;
+}
+        
+hr {
+    margin: 100px 0px 30px θρκ; 
+    border: 1px solid #ffffff;
+}
+
+.enlaces {
+    display: flex; 
+    justify-content: space-betean; 
+    color: #ffffff;
+}
+        
+.enlaces h3 {
+    font-size: 25px;
+}
+
+.enlace {
+    display: flex;
+}
+            
+.enlace li a {
+    display: block;
+    margin: 20px;
+    color: #ffffff;
+    padding: 10px 35px;
+    border-radius: 25px;
+}
+            
+.enlace li a:hover {
+    background-color: #369BD1;
+}
+            
+@media(max-width:991px) {
+    
+    .menu {
+        padding: 10px;
+    }
+            
+    .menu label {
+        display: initial;
+    }
+            
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 250px;
+        right: 0;
+        background-color: #dd091a;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+    
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+    
+    .header{
+        height: 0vh;
+        padding: 400pх 0рх 340рх 0рх;
+        background-position: center center;
+    }
+    
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        padding: 0px 30px;
+    }
+    
+    .content{
+        padding: 0px;
+    }
+    
+    .content h1{
+        margin-top: 0px;
+        font-weight: 45px;
+    }
+    
+    .content p{
+        margin-top: 0px;
+    }
+    
+    .header-content img {
+        margin-top: 25px;
+        width: 150px;
+    }
+
+    .services {
+        flex-direction: column;
+        padding: 50px 30px 0px 30px;
+    }
+    
+    .service {
+        margin-bottom: 50px;
+    }
+    
+    .features {
+        padding: 30px;
+    }
+    
+    .features h2 {
+        font-size: 45px;
+    }
+    
+    .g-features{
+        flex-direction: column;
+    }
+    
+    .feature {
+        margin: 0px 25px 25px 25px;
+    }
+    
+    .customers {
+        padding: 30px 0px;
+    }
+    
+    .customers h2 {
+        font-size: 45px;
+        margin-bottom: 5px;
+    }
+    
+    .customer {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .customer img {
+        margin-bottom: 25px;
+        width: 150px;
+        height: 50px;
+    }
+
+    
+    #images{
+        width: auto;
+    }
+
+    
+    #images img{
+        height: 9rem;
+    }
+    
+    footer {
+        padding: 0px 30px 30px 30px;
+    }
+    
+    .info-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .info-price {
+        margin: 0px 0px 20px 0px;
+    }
+    
+    .info-txt {
+        margin: 0px;
+    }
+    
+    hr {
+        margin: 25px 0px;
+    }
+    
+    .enlaces {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .enlace {
+        flex-direction: column;
+    }
+
+}

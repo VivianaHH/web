@@ -1,0 +1,20 @@
+.grande{
+    display: none;
+}
+
+.mediano{
+    display: none;
+}
+
+.mini{
+    display: none;
+}
+
+.menu{
+    padding-left:0;
+}
+
+.menu li{
+    display: inline;
+    List-style-type: none;
+}

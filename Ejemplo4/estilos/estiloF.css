@@ -1,0 +1,79 @@
+#registrousuario{
+
+    background: transparent url("/Ejemplo4/html5_2020/images/legend1.jpg") no-repeat scroll left bottom;
+    border: medium none;
+    color: #990033;
+    height: 775px;
+    width: 515px;
+    padding: eee 50px;
+    margin: 0 auto;
+    
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    
+    }
+    #registrousuario legend{
+    background: transparent url("/Ejemplo4/html5_2020/images/leg2.jpg") no-repeat scroll left top;
+    color: #6633CC;
+    font-family: arial;
+    font-size: 21px;
+    Letter-spacing: -1px;
+    padding-top: 8px;
+    padding-bottom: 20px;
+    text-transform: capitalize;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+}
+#registrousuario input.texto{
+    background:#FFFFFF url("/Ejemplo4/html5_2020/images/legend2.jpg") no-repeat scroll left top;
+    border: medium none limportant;
+    color:#666666;
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    Letter-spacing: -1px;
+    padding-top: 5px;
+    padding-bottom: 0;
+    padding-left: 5px;
+    height: 24px;
+    width: 454px;
+    
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+} 
+#registrousuario label{
+    display: block;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    padding: 10px 0 3px;
+}
+
+#registrousuario textarea.areadetexto{
+    background: #FFFFFF url("/Ejemplo4/html5_2020/images/legend2.jpg") no-repeat scroll top left;
+    color:#666666;
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 0;
+    padding-left: 5px;
+    height: 212px;
+    width: 454px;
+    border: none !important;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+}
+#registrousuario input.botonenviar{
+    background: transparent url("/Ejemplo4/html5_2020/images/enviar.jpg") no-repeat scroll left top;
+    color:#FFFFFF;
+    display: block;
+    float: left;
+    font-family: arial, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    height: 30px;
+    width: 99px;
+    margin-left: 360px;
+    margin-top: 20px;
+    border: none limportant;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+}

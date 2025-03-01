@@ -1,0 +1,59 @@
+h1{ 
+    color: brown; 
+    text-align: center; 
+    } 
+    table{ 
+    border-collapse: collapse; 
+    margin: 0 auto; 
+    } 
+    table th{ 
+    width: 10em; 
+    height: 2em; 
+    } 
+    tr:nth-of-type(1)>th{ 
+    background-color: orange; 
+    } 
+    td[colspan] { 
+    text-align: center; 
+    background-color: burlywood; 
+    font-weight: bold; 
+    } 
+    td{ 
+    font-size: 15px; 
+    } 
+    th{ 
+    font-size: 20px; 
+    } 
+    tr:nth-of-type(2) > th, 
+    tr:nth-of-type(3) > th, 
+    tr:nth-of-type(4) > th, 
+    tr:nth-of-type(5) > th, 
+    tr:nth-of-type(6) > th, 
+    tr:nth-of-type(7) > th, 
+    tr:nth-of-type(8) > th{ 
+    background-color: rgb(134, 190, 49); 
+    } 
+    .lengua{ 
+    background-color: rgb(67, 148, 151); 
+    } 
+    .matematicas{ 
+    background-color: brown; 
+    } 
+    .ingles{ 
+    background-color: violet; 
+    } 
+    .educacion{ 
+    background-color: blue; 
+    } 
+    .religion{ 
+    background-color: rgb(162, 129, 240); 
+    } 
+    .frances{ 
+    background-color: rgb(229, 40, 150); 
+    } 
+    .biologia{ 
+    background-color: darkgreen; 
+    } 
+    .fisica{ 
+    background-color: gold; 
+    }

@@ -1,0 +1,12 @@
+.mini{
+    display: inherit limportant;
+}
+    
+body{
+    font-family: Arial;
+}
+    
+select.mini{
+    font-size: 1.2em;
+    width: 100%;
+}

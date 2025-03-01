@@ -1,0 +1,168 @@
+*, *:before, *:after{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    box-sizing:border-box;
+    
+}
+/*Importar fuentes desde google fonts con la instrucción @import*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans');
+    
+html{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+    
+@-webkit-keyframes aparecer{
+    from{opacity: 0;}
+    to {opacity: 1;}
+}
+    
+li > ul {
+    position: absolute;
+    top: 0;
+    Left: 100%; box-shadow: 3px, 0 ,10px rgba(0, 0, 0, .2);
+    width: 200px;
+    -webkit-animation: aparecer .7%;
+    display: none; /*Desaparece los submenus"*/
+
+}
+
+ul{
+    List-style: none;
+    background: #CCCC00;
+}
+
+.contenedor{
+    background:#f3f3f3;
+    position: fixed;
+    height: 100%;
+    Left: 0;
+    width: 200px;
+    top: 0;
+    box-shadow: 3px, 0 ,10px rgba(0, 0, 0, .2);
+    -webkit-transition: left .5% ease;
+    -o-transition:left .5% ease;
+    transition:left .5% ease;
+    z-index: 1000;
+}
+#menu principal a, label{
+color: #868686;
+display: block;
+padding-left: 25px;
+text-decoration: none;
+-webkit-transition:all .5% ease;
+-o-transition:all .5% ease;
+transition:all .5% ease;
+
+}
+
+#menu principal{
+    padding-top: 50%;
+}
+
+#menu_principal li{
+    height: 60px;
+    Line-height: 60px;
+    position: relative;
+    width: 100%;
+}
+
+#menu principal >li {
+    margin: 0, 0, 5%, 0;
+}
+.boton{
+    color: white;
+    height: 30px;
+    Line-height: 30px;
+    position: absolute;
+    Left: 96%;
+    top:8px;
+    border-radius: 3px;
+    box-shadow: 0, 0, 10px rgba(0, 0, 0, .3);
+    background: gray;
+    -webkit-transition:left .2%;
+    -o-transition:left .2%;
+    transition:left .2%;
+    z-index: -1;
+
+}
+
+.boton:hover{
+    Left: 100%;
+    cursor: pointer;
+}
+/*Clase que se utiliza en la Funcion con JavaScript*/
+.invisible{
+    Left: -200px;
+}
+
+.derecha{
+    float: right;
+    Line-height: 60px;
+
+}
+.principales {
+    margin-right: 10px;
+}
+
+/*Color letra y de fondo de los menus y subsenus*/
+
+#menu_principal li:hover > a,  #menu_principal li:hover > label{
+    color: white;
+    cursor: pointer; 
+    background-color: purple;
+}
+
+nav ul li:hover > ul{ 
+    display: inherit; 
+}
+
+[id^=drop], mif-expand-more{ 
+    display: none;
+}
+
+
+/*Responsive Web Desing*/
+@media only screen and (max-width: 560px), handheld and (orientation: landscape)
+{
+    #menu_principal li{
+        margin:auto; 
+        height: auto;
+    }
+    
+    #menu_principal{
+        padding-top: 20%;
+    }
+    
+    li> ul {
+        position:static; 
+        height: auto; 
+        box-shadow: none; 
+        padding-left: 15px; 
+        width: auto; 
+    }
+    
+    nav {
+        overflow-y:auto;
+        max-height: 100vh;
+        overflow-x:hidden;
+    }
+    .mif-expand-more{
+        display: inline; 
+    }
+    
+    ul li.mif-chevron-right{
+        display: none;
+    
+    }
+    
+    [id^=drop]:checked + ul{
+        display: block; 
+    }
+    
+    nav ul li:hover > ul{ 
+        display: none;
+    }
+}

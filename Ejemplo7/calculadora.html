@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+
+    <!--meta adaptar el sitio a pantallas de diferentes dispositivos -->
+<meta name="viewport" content="width-device-width, user-scalable-no, initial-scale=1.0, maximum-scale-1.0, minimum-scale=1.0">
+
+  
+   <title>Calculadora con JavaScript</title>
+
+   <!--Se vincula a la Hoja de Estilo-->
+   <link rel="stylesheet" type="text/css" href="/Ejemplo7/estyles/estyle.css">
+</head>
+<body onload="init();">
+    <table class="calculadora">
+        <tr>
+            <td colspan="4"><span id="resultado"></span></td>
+        
+        </tr>
+        <tr>
+            <td><button id="siete">7</button></td>
+            <td><button id="ocho">8</button></td>
+            <td><button id="nueve">9</button></td>
+            <td><button id="division">/</button></td>
+        </tr>
+        
+        <tr>
+            <td><button id="cuatro">4</button></td>
+            <td><button id="cinco">5</button></td>
+            <td><button id="seis">6</button></td>
+            <td><button id="multiplicacion">x</button></td>
+        </tr>
+        
+        <tr>
+            <td><button id="uno">1</button></td>
+            <td><button id="dos">2</button></td>
+            <td><button id="tres">3</button></td>
+            <td><button id="resta">-</button></td>
+        </tr>
+        <tr>
+            <td><button id="cero">0</button></td>
+            <td><button id="reset">C</button></td>
+            <td><button id="igual">=</button></td>
+            <td><button id="suma">+</button></td>
+        </tr>
+    
+    </table>
+
+<!--Se vincula a la Funcion con JavaScript-->
+
+<script type="text/javascript" src="/Ejemplo7/js/funcjs.js"></script>
+</body>
+
+</html>

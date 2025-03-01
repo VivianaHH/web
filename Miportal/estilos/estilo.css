@@ -1,0 +1,240 @@
+*{margin:0; padding:0}
+
+html{background-color: black;}
+
+body{
+    width: 750px;
+    height: 750px;
+    margin: auto;
+    background-color: rgb(214, 128, 142);
+    
+}
+
+header{
+    width: 750px;
+    height: 250px;
+    background-color: yellow;
+    
+}
+
+nav{
+    width: 750px;
+    height: 50px;
+    background-color: rgb(151, 151, 247);
+}
+
+main{
+    width: 750px;
+    height: 400px;
+    background-color:  #b839a3;
+}
+
+footer{
+    width: 750px;
+    height: 50px;
+    background-color: rgb(40, 2, 48);
+}
+
+section#banner{
+    width: 500px;
+    height: 250px;
+    background-color: rgb(233, 12, 148);
+    float: left;
+}
+
+section#logo{
+    width: 250px;
+    height: 125px;
+    background-color: gray;
+    float: left;
+}
+
+section#login{
+    width: 250;
+    height: 125px;
+    background-color: magenta;
+    float: left;
+}
+
+aside#left{
+    width: 150px;
+    height: 425px;
+    background-color: purple;
+    float: left;
+}
+
+article{
+    width: 500px;
+    height: 400px;
+    float: left;
+    background-color: rgb(233, 81, 152);
+}
+
+aside#right{
+    width: 100px;
+    height: 400px;    
+    float: left;
+    background-color: #b839a3;
+
+}
+
+
+/*img.imgUz{
+    border-radius: 45px;
+    position: relative;
+    right: 32%;
+}
+*/
+
+#banner{
+    font: bold 32px broadway, sans-serif;
+    text-align: center;
+    color: rgb(4, 34, 99);
+}
+
+#menu li{ 
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    font :bold 14px verdana, sans-serif;
+}
+
+
+
+#boton li{
+    display:  inline;
+    text-align: right;
+}
+
+#boton li a{
+    font-family: Arial;
+    font-size: 12px;
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    background-color: rgb(114, 13, 128);
+    color: #fff;
+    text-align: right;
+}
+
+#boton li a:hover{
+    background-color: #2586d7;
+    margin-top: 2px;
+    padding-bottom: 12px;
+    text-align: right;
+}
+
+
+#menu2{
+    position: relative;
+    /*
+    top: 46%;
+    left: 22.5%;*/
+    height: 100%;
+    width: auto;    /*Cambiado por auto*/
+    background-color: #d9d9d9;
+    color: #454545;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+}
+
+#menu2 li{
+    display: inline-block;
+    list-style: none;
+    padding: 8px;
+    font: bold 11px verdana, sans-serif;
+    position: relative; /* Necesario para que el submenú se posicione correctamente */
+}
+
+#menuvertical li a{
+    text-decoration: none;
+    color: gray;
+}
+
+#menuvertical li a:hover{
+    background-color: rgb(236, 233, 233);
+    text-align: right;
+    margin-top: 6px;
+    padding-bottom: 5px;
+}
+
+#pie{
+    font: 12px verdana, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+
+#imagen{
+    position: relative;
+    top: 0%;
+    left: 30%;
+    height: 98%;
+    width: 250px;
+}
+
+
+
+#presenta{
+    position: relative;
+    font:  11px verdana, sans-serif;
+    text-align: center;
+    color: yellow;
+    bottom: 45%;
+    right: 0%;
+    width: 80%;
+    margin: 14px;
+    padding: 37px;
+    background-color: gray;
+    -moz-border-radius: 14px;
+    -webkit-border-radius: 14px;
+}
+
+
+#right li a{
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+}
+
+
+
+#right li {
+    list-style: none;
+}
+
+/* Estilos del Submenú (Menu 3D) */
+#menu2 .submenu {
+    display: none; /* Se oculta por defecto */
+    position: absolute;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 100; /* Asegura que el submenú esté sobre los demás elementos */
+    top: 0; /* Mantiene el submenú alineado con el padre */
+    left: 100%; /* Lo coloca a la derecha del padre */
+    white-space: nowrap; /* Evita saltos de línea en el submenú */
+}
+
+/* Mostrar el submenú cuando el ratón está sobre "Menu 3D" */
+#menu2 li:hover > .submenu {
+    display: block;
+}
+
+/* Estilos del Submenú */
+#menu2 .submenu li {
+    padding: 5px;
+    font: bold 11px Verdana, sans-serif;
+}
+
+#menu2 .submenu li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+}
+
+#menu2 .submenu li a:hover {
+    background-color: #ddd;
+}
+
